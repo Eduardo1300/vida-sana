@@ -138,12 +138,10 @@ INSERT INTO habitos (id, tipo, cantidad, fecha, usuario_id) VALUES
 (4, 'comida', '200kcal', '2025-07-04 23:23:00', 2),
 (5, 'agua', '1L', '2025-07-04 23:23:00', 2),
 (6, 'sueno', '7h', '2025-07-04 23:23:00', 2);
+```
 
+👨‍💻 Autor
 
-✅ Créditos
-
-Proyecto desarrollado por estudiantes del curso:
-Desarrollo de Aplicaciones Móviles I – Cibertec
-Ciclo V – Computación e Informática
+Christopher Eduardo Valdivia Baca 📍 Estudiante de Computación e Informática — Cibertec Callao 🔗 www.linkedin.com/in/christopher-eduardo-valdivia-baca-899051318 📧 eduardovaldivia130@outlook.es 📱 +51 953 587 619
 
 
