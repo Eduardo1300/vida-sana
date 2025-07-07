@@ -77,14 +77,14 @@ El sistema cuenta con:
 🖼️ Capturas de pantalla
 
 
-![registro_usuario](screenshots/registro_usuario.png)  
-![logeo_usuario](screenshots/logeo_usuario.png)  
-![menu_principal](screenshots/menu_principal.png)  
-![registro_habito](screenshots/registro_habito.png)  
-![estadisticas_habito](screenshots/estadisticas_habito.png)  
-![pdf_habito](screenshots/pdf_habito.png)  
-![sincronizacion_habito](screenshots/sincronizacion_habito.png)  
-![portal_web](screenshots/portal_web.png)
+![registro_usuario](assets/registro_usuario.png)  
+![logeo_usuario](assets/logeo_usuario.png)  
+![menu_principal](assets/menu_principal.png)  
+![registro_habito](assets/registro_habito.png)  
+![estadisticas_habito](assets/estadisticas_habito.png)  
+![pdf_habito](assets/pdf_habito.png)  
+![sincronizacion_habito](assets/sincronizacion_habito.png)  
+![portal_web](assets/portal_web.png)
 
 
 📝 Nota: Coloca las imágenes en la carpeta screenshots/ dentro del repositorio.
