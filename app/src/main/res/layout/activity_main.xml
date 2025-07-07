@@ -1,0 +1,100 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:backgroundTint="#F1F8E9"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Logo -->
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="Logo Vida Sana"
+        android:elevation="4dp"/>
+
+    <!-- Título principal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vida Sana"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Subtítulo motivacional -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu coach diario de bienestar"
+        android:textSize="16sp"
+        android:textColor="#555"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Botones de acciones -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📝 Registrar Hábito"
+            android:backgroundTint="#81C784"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnEstadisticas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📊 Ver Estadísticas"
+            android:backgroundTint="#4DB6AC"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnGenerarPDF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📄 Generar PDF"
+            android:backgroundTint="#9575CD"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id="@+id/btnSincronizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="☁️ Sincronizar con la nube"
+            android:backgroundTint="#64B5F6"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔒 Cerrar sesión"
+            android:backgroundTint="#E57373"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+    <!-- Lista de hábitos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerHabitos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:clipToPadding="false"/>
+</LinearLayout>
